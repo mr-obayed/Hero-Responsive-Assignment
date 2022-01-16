@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 *:after, *:before  {
     box-sizing: border-box;
 }
-
 /* Global Styles */
 
 /* Common Styles */
@@ -58,12 +57,9 @@ img {
 .title {
     font-family: 'Bebas Neue', cursive;
 }
-
-
 /* Common Styles */
 
 /* Navbar Styles */
-
 .nav {
 	height: 50px;
 	width: 100%;
@@ -106,13 +102,9 @@ img {
 #nav-check {
 	display: none;
 }
-
-
-
 /* Navbar Styles */
 
 /* Header section */
-
 #header {
     padding-top:80px;
     padding-bottom: 80px;
@@ -222,16 +214,6 @@ img {
 }
 /* Header section */
 
-
-
-
-
-
-
-
-
-
-
 /* Brand Section*/
 #brand {
     padding:80px 0px;
@@ -250,9 +232,6 @@ img {
     padding:0 15px;
 }
 
-
-
-
 .c-logo img {
     filter: grayscale(100%);
     transition:0.3s
@@ -261,12 +240,9 @@ img {
 .c-logo:hover img {
     filter: grayscale(0%);
 }
-
-
 /* Brand Section */
 
 /* Peripheral Section */
-
 #peripherals-sec > .title {
     font-size:42px;
     margin-bottom:60px;
@@ -276,20 +252,18 @@ img {
     font-size: 46px;
     font-weight:500;
     letter-spacing: 3px;;
-
 }
+
 .peripherals {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:40px;
-
 }
 
 .product {
@@ -297,7 +271,6 @@ img {
     border-radius: 5px;
     transition: all 0.3s;
     padding:15px 15px 30px 15px;
-    
 }
 
 .product .title {
@@ -308,12 +281,10 @@ img {
     color: rgba(10,23,35, 1);
 }
 
-
 .product-image img {
     width:100%;
     max-width:350px;
     transition: all 0.3s;
-    
 }
 
 .product:hover {
@@ -328,9 +299,7 @@ img {
     font-weight: 500;
 }
 
-
 .product-description {
-    
     border-top:1px solid rgba(10,23,35, 0.1);
 }
 
@@ -346,7 +315,6 @@ img {
     display: inline-block;
     position: relative;
     margin-top:20px;
-    
 }
 
 .view-btn::after {
@@ -361,7 +329,6 @@ img {
     transition: all 0.3s;
 }
 
-
 .view-btn:hover::after {
     position: absolute;
     content: "";
@@ -372,16 +339,9 @@ img {
     background: seagreen;
     opacity: 0.75;
 }
-
-
-
-
-
 /* Peripheral Section */
 
-
 /* Call to Action Styles  */
-
 .background-container {
     position: relative;
     padding-bottom: 100px!important;
@@ -405,6 +365,7 @@ img {
     margin: 0;
     padding: 0;
 }
+
 .line-heading-left h2 {
     color: #05B0E3;
     font-size: 2.625rem;
@@ -415,6 +376,7 @@ img {
     margin: 0;
     padding: 0;
 }
+
 .line-heading-left h4 {
     font-size: 1.75rem;
     font-weight: 300;
@@ -425,6 +387,7 @@ img {
     margin: 0;
     padding: 0;
 }
+
 .line-heading p {
     margin-left: 38px;
     margin-top: 0;
@@ -441,19 +404,13 @@ img {
 }
 /* Call to Action Styles  */
 
-
-
 /* Footer Styles */
-
-
-
 footer {
     background-image:-webkit-gradient(linear, left bottom, left top, from(rgba(23,27,38,.92)), to(rgba(39,45,62,.92)));
     background-image: linear-gradient(to top, rgba(23,27,38,.92) 0%, rgba(39,45,62,.92) 100%);
     padding:50px 15px;
     color:#efefef;
 }
-
 
 footer .title {
     font-family: 'Open Sans', sans-serif;
@@ -471,15 +428,15 @@ footer .fa {
 }
 
 .fa-border {
-border-radius: 100%;
-  font-size: 20px;
-  height: 36px;
-  line-height: 36px;
-  margin: 8px;
-  text-align: center;
-  width: 36px;
-  color:#efefef;
-  border:solid 2px  #efefef;
+    border-radius: 100%;
+    font-size: 20px;
+    height: 36px;
+    line-height: 36px;
+    margin: 8px;
+    text-align: center;
+    width: 36px;
+    color:#efefef;
+    border:solid 2px  #efefef;
 }
 
 .fa-facebook:hover, .fa-facebook.fa-border:hover {
@@ -507,11 +464,9 @@ border-radius: 100%;
     color:#FF0000;
     border:solid 2px  #FF0000;
 }
-
 /* Footer Styles */
 
 /* Responsive Styles */
-
 @media (max-width: 1000px) {
 
     /* Common Styles */
@@ -533,7 +488,6 @@ border-radius: 100%;
         line-height: 60px;
         letter-spacing: 5px;
         font-size: 52px;
-        
     }
 
     #header .description {
@@ -545,7 +499,6 @@ border-radius: 100%;
         width:100%;
         text-align: center;
     }
-
 
     .header-box {
         display: block;
@@ -567,10 +520,7 @@ border-radius: 100%;
     }
     /* Brand Styles */
 
-
-
     /* Product Section */
-    
     .products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -630,7 +580,6 @@ border-radius: 100%;
 
 
 @media (max-width: 600px) {
-
     /* Common Styles */
     .container {
         width:100%;
@@ -650,7 +599,6 @@ border-radius: 100%;
         line-height: 40px;
         letter-spacing: 5px;
         font-size: 36px;
-        
     }
 
     #header .description {
@@ -662,7 +610,6 @@ border-radius: 100%;
         width:100%;
         text-align: center;
     }
-
 
     .header-box {
         display: block;
@@ -705,20 +652,21 @@ border-radius: 100%;
 		left: 0px;
         z-index:9999;
 	}
+
 	.nav-links a {
 		display: block;
 		width: 100%;
 	}
+
 	#nav-check:not(:checked) ~ .nav-links {
 		height: 0px;
 	}
+
 	#nav-check:checked ~ .nav-links {
 		height: calc(100vh - 50px);
 		overflow-y: auto;
 	}
-
     /* Navbar Styles */
-
 
     /* Brand Styles */
     .brand-logos {
@@ -730,8 +678,6 @@ border-radius: 100%;
         align-items: center;
     }
     /* Brand Styles */
-
-
 
     /* Product Section */
     .peripherals {
@@ -746,11 +692,11 @@ border-radius: 100%;
     /* Product Section */
 
     /* Call to Action */
-
     .background-container {
         padding-top: 30px !important;
         padding-bottom:30px !important;
     }
+
     .line-heading {
         display: inline;
     }
@@ -794,10 +740,8 @@ border-radius: 100%;
 
     .extra-box .txt-right {
         text-align: center !important;
-
     }
     /* Extra Box */
-
 
     /* Footer Styles */
     footer .title {
